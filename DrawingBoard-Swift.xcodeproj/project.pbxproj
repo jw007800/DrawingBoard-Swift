@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651AF8931E23961900B5FC26 /* ChangeBackgroundImageCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8921E23961900B5FC26 /* ChangeBackgroundImageCommand.swift */; };
+		651AF8951E23963500B5FC26 /* LZXPathCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8941E23963500B5FC26 /* LZXPathCommand.swift */; };
+		651AF8971E23964500B5FC26 /* LZXDeleteScribbleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8961E23964500B5FC26 /* LZXDeleteScribbleCommand.swift */; };
+		651AF8991E2398DF00B5FC26 /* LZXBrowserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8981E2398DF00B5FC26 /* LZXBrowserTabView.swift */; };
+		651AF89B1E23ADBD00B5FC26 /* LZXBrowserTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF89A1E23ADBD00B5FC26 /* LZXBrowserTab.swift */; };
+		651AF89D1E25242100B5FC26 /* LZXDooleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF89C1E25242100B5FC26 /* LZXDooleView.swift */; };
+		651AF89F1E28E37400B5FC26 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF89E1E28E37400B5FC26 /* Mark.swift */; };
+		651AF8A11E28E6C000B5FC26 /* ACEDrawingTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8A01E28E6C000B5FC26 /* ACEDrawingTools.swift */; };
+		651AF8A31E2CDF4500B5FC26 /* ACEDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AF8A21E2CDF4500B5FC26 /* ACEDrawingView.swift */; };
 		65EFCCB41E21E0E10089D7C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCB31E21E0E10089D7C7 /* AppDelegate.swift */; };
-		65EFCCB61E21E0E10089D7C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCB51E21E0E10089D7C7 /* ViewController.swift */; };
 		65EFCCB91E21E0E10089D7C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFCCB71E21E0E10089D7C7 /* Main.storyboard */; };
 		65EFCCBB1E21E0E10089D7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EFCCBA1E21E0E10089D7C7 /* Assets.xcassets */; };
 		65EFCCBE1E21E0E10089D7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFCCBC1E21E0E10089D7C7 /* LaunchScreen.storyboard */; };
+		65EFCCCD1E21E6C50089D7C7 /* LZXDoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCCC1E21E6C50089D7C7 /* LZXDoodleViewController.swift */; };
+		65EFCCCF1E2220F50089D7C7 /* LZXCanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCCE1E2220F50089D7C7 /* LZXCanvasViewGenerator.swift */; };
+		65EFCCD11E2221AD0089D7C7 /* LZXCanvasBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCD01E2221AD0089D7C7 /* LZXCanvasBar.swift */; };
+		65EFCCD31E2225600089D7C7 /* LZXStudentCanvasBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCD21E2225600089D7C7 /* LZXStudentCanvasBar.swift */; };
+		65EFCCD51E222AC20089D7C7 /* LZXCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCD41E222AC20089D7C7 /* LZXCommon.swift */; };
+		65EFCCD71E2232200089D7C7 /* LZXToolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCD61E2232200089D7C7 /* LZXToolButton.swift */; };
+		65EFCCD91E2324720089D7C7 /* NSObject+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCD81E2324720089D7C7 /* NSObject+Event.swift */; };
+		65EFCCDB1E235E360089D7C7 /* LZXCommandBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCDA1E235E360089D7C7 /* LZXCommandBtn.swift */; };
+		65EFCCDD1E235E560089D7C7 /* LZXBarCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCDC1E235E560089D7C7 /* LZXBarCommand.swift */; };
+		65EFCCDF1E2361910089D7C7 /* LZXCoordinatingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFCCDE1E2361910089D7C7 /* LZXCoordinatingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		651AF8921E23961900B5FC26 /* ChangeBackgroundImageCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeBackgroundImageCommand.swift; sourceTree = "<group>"; };
+		651AF8941E23963500B5FC26 /* LZXPathCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXPathCommand.swift; sourceTree = "<group>"; };
+		651AF8961E23964500B5FC26 /* LZXDeleteScribbleCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXDeleteScribbleCommand.swift; sourceTree = "<group>"; };
+		651AF8981E2398DF00B5FC26 /* LZXBrowserTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXBrowserTabView.swift; sourceTree = "<group>"; };
+		651AF89A1E23ADBD00B5FC26 /* LZXBrowserTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXBrowserTab.swift; sourceTree = "<group>"; };
+		651AF89C1E25242100B5FC26 /* LZXDooleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXDooleView.swift; sourceTree = "<group>"; };
+		651AF89E1E28E37400B5FC26 /* Mark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		651AF8A01E28E6C000B5FC26 /* ACEDrawingTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACEDrawingTools.swift; sourceTree = "<group>"; };
+		651AF8A21E2CDF4500B5FC26 /* ACEDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACEDrawingView.swift; sourceTree = "<group>"; };
 		65EFCCB01E21E0E10089D7C7 /* DrawingBoard-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrawingBoard-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EFCCB31E21E0E10089D7C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65EFCCB51E21E0E10089D7C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65EFCCB81E21E0E10089D7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65EFCCBA1E21E0E10089D7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65EFCCBD1E21E0E10089D7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65EFCCBF1E21E0E10089D7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EFCCCC1E21E6C50089D7C7 /* LZXDoodleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXDoodleViewController.swift; sourceTree = "<group>"; };
+		65EFCCCE1E2220F50089D7C7 /* LZXCanvasViewGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXCanvasViewGenerator.swift; sourceTree = "<group>"; };
+		65EFCCD01E2221AD0089D7C7 /* LZXCanvasBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXCanvasBar.swift; sourceTree = "<group>"; };
+		65EFCCD21E2225600089D7C7 /* LZXStudentCanvasBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXStudentCanvasBar.swift; sourceTree = "<group>"; };
+		65EFCCD41E222AC20089D7C7 /* LZXCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXCommon.swift; sourceTree = "<group>"; };
+		65EFCCD61E2232200089D7C7 /* LZXToolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXToolButton.swift; sourceTree = "<group>"; };
+		65EFCCD81E2324720089D7C7 /* NSObject+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Event.swift"; sourceTree = "<group>"; };
+		65EFCCDA1E235E360089D7C7 /* LZXCommandBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXCommandBtn.swift; sourceTree = "<group>"; };
+		65EFCCDC1E235E560089D7C7 /* LZXBarCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXBarCommand.swift; sourceTree = "<group>"; };
+		65EFCCDE1E2361910089D7C7 /* LZXCoordinatingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZXCoordinatingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,72 @@
 		65EFCCB21E21E0E10089D7C7 /* DrawingBoard-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				65EFCCC51E21E1630089D7C7 /* Controllers */,
+				65EFCCC61E21E1630089D7C7 /* LZXUtils */,
+				65EFCCC71E21E1630089D7C7 /* Modules */,
+				65EFCCC81E21E1630089D7C7 /* ThirdPartys */,
+				65EFCCC91E21E1630089D7C7 /* Views */,
 				65EFCCB31E21E0E10089D7C7 /* AppDelegate.swift */,
-				65EFCCB51E21E0E10089D7C7 /* ViewController.swift */,
 				65EFCCB71E21E0E10089D7C7 /* Main.storyboard */,
 				65EFCCBA1E21E0E10089D7C7 /* Assets.xcassets */,
 				65EFCCBC1E21E0E10089D7C7 /* LaunchScreen.storyboard */,
 				65EFCCBF1E21E0E10089D7C7 /* Info.plist */,
 			);
 			path = "DrawingBoard-Swift";
+			sourceTree = "<group>";
+		};
+		65EFCCC51E21E1630089D7C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65EFCCCC1E21E6C50089D7C7 /* LZXDoodleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65EFCCC61E21E1630089D7C7 /* LZXUtils */ = {
+			isa = PBXGroup;
+			children = (
+				65EFCCD81E2324720089D7C7 /* NSObject+Event.swift */,
+			);
+			path = LZXUtils;
+			sourceTree = "<group>";
+		};
+		65EFCCC71E21E1630089D7C7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				65EFCCCE1E2220F50089D7C7 /* LZXCanvasViewGenerator.swift */,
+				65EFCCD41E222AC20089D7C7 /* LZXCommon.swift */,
+				65EFCCDC1E235E560089D7C7 /* LZXBarCommand.swift */,
+				65EFCCDE1E2361910089D7C7 /* LZXCoordinatingManager.swift */,
+				651AF8921E23961900B5FC26 /* ChangeBackgroundImageCommand.swift */,
+				651AF8941E23963500B5FC26 /* LZXPathCommand.swift */,
+				651AF8961E23964500B5FC26 /* LZXDeleteScribbleCommand.swift */,
+				651AF89E1E28E37400B5FC26 /* Mark.swift */,
+				651AF8A01E28E6C000B5FC26 /* ACEDrawingTools.swift */,
+				651AF8A21E2CDF4500B5FC26 /* ACEDrawingView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		65EFCCC81E21E1630089D7C7 /* ThirdPartys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartys;
+			sourceTree = "<group>";
+		};
+		65EFCCC91E21E1630089D7C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65EFCCD01E2221AD0089D7C7 /* LZXCanvasBar.swift */,
+				65EFCCD21E2225600089D7C7 /* LZXStudentCanvasBar.swift */,
+				65EFCCD61E2232200089D7C7 /* LZXToolButton.swift */,
+				65EFCCDA1E235E360089D7C7 /* LZXCommandBtn.swift */,
+				651AF8981E2398DF00B5FC26 /* LZXBrowserTabView.swift */,
+				651AF89A1E23ADBD00B5FC26 /* LZXBrowserTab.swift */,
+				651AF89C1E25242100B5FC26 /* LZXDooleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +230,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65EFCCB61E21E0E10089D7C7 /* ViewController.swift in Sources */,
+				65EFCCD11E2221AD0089D7C7 /* LZXCanvasBar.swift in Sources */,
+				651AF8971E23964500B5FC26 /* LZXDeleteScribbleCommand.swift in Sources */,
+				651AF89F1E28E37400B5FC26 /* Mark.swift in Sources */,
+				65EFCCD51E222AC20089D7C7 /* LZXCommon.swift in Sources */,
+				65EFCCCF1E2220F50089D7C7 /* LZXCanvasViewGenerator.swift in Sources */,
+				651AF8951E23963500B5FC26 /* LZXPathCommand.swift in Sources */,
+				651AF89D1E25242100B5FC26 /* LZXDooleView.swift in Sources */,
+				65EFCCD71E2232200089D7C7 /* LZXToolButton.swift in Sources */,
+				65EFCCDB1E235E360089D7C7 /* LZXCommandBtn.swift in Sources */,
+				651AF89B1E23ADBD00B5FC26 /* LZXBrowserTab.swift in Sources */,
+				65EFCCD91E2324720089D7C7 /* NSObject+Event.swift in Sources */,
+				651AF8A11E28E6C000B5FC26 /* ACEDrawingTools.swift in Sources */,
+				65EFCCDF1E2361910089D7C7 /* LZXCoordinatingManager.swift in Sources */,
+				65EFCCD31E2225600089D7C7 /* LZXStudentCanvasBar.swift in Sources */,
+				65EFCCCD1E21E6C50089D7C7 /* LZXDoodleViewController.swift in Sources */,
+				651AF8A31E2CDF4500B5FC26 /* ACEDrawingView.swift in Sources */,
+				651AF8931E23961900B5FC26 /* ChangeBackgroundImageCommand.swift in Sources */,
+				65EFCCDD1E235E560089D7C7 /* LZXBarCommand.swift in Sources */,
 				65EFCCB41E21E0E10089D7C7 /* AppDelegate.swift in Sources */,
+				651AF8991E2398DF00B5FC26 /* LZXBrowserTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "songjie.DrawingBoard-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -277,6 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "songjie.DrawingBoard-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -299,6 +413,7 @@
 				65EFCCC41E21E0E10089D7C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
